@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Quiz JS</title>
+</head>
+<body>
+  <div class="quiz" id="quiz">
+    <div class="quiz-questions" id="questions" data-current-step ="0"></div>
+
+    <div class="quiz-indicator" id="indicator"></div>
+
+    <div class="quiz-results" id="results"></div>
+
+    <div class="quiz-controls">
+      <button class="btn-next" id="btn-next" disabled>Далее</button>
+      <button class="btn-restart" id="btn-restart">С начала</button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
